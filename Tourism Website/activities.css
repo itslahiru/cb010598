@@ -153,6 +153,15 @@ input[type=button]{
     margin: 4px 2px;
     cursor: pointer;
 }
+section.form{
+    padding: 40px;
+    text-align: center;
+    font-size: medium;background-color: rgba(53, 53, 53, 0.534);
+    border: solid floralwhite;
+    border-radius: 15px;
+    color: white;
+    justify-content: space-between;
+}
 .foot{
     position: static;
     width: 100%;
