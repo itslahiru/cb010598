@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activities</title>
-    <link rel="stylesheet" href="activities.css">
+    <link rel="stylesheet" href="Activities.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -21,7 +21,7 @@
         <a href="./Home page.html">Home</a>
         <a href="./wildlife.html">Wildlife</a>
         <a href="./beaches.html">Beaches</a>
-        <a href="./activities.html">Activities</a>
+        <a href="./Activities.html">Activities</a>
         <section class="dropdown">
             <button class="dropbtn">Heritages
               <i class="fa fa-caret-down"></i>
@@ -56,7 +56,7 @@
 </section>
     <header><h2>Activities</h2></header>
     <section class="paragraph">
-      <mark>Sri Lanka day tours and excursions include but not limited to jungle trekking, diving & snorkeling, safaris, water based activities such as white water rafting and canoeing, hot-air ballooning and many more choices. Sri Lanka day tours has many and varied excursions, covering different expectations in budget, interest and group size. For some excursions, you may join a group and make some new friends while some can be arranged privately.
+      <mark>Sri Lanka day tours and excursions include but not limited to jungle trekking, diving & snorkeling, safaris, water based Activities such as white water rafting and canoeing, hot-air ballooning and many more choices. Sri Lanka day tours has many and varied excursions, covering different expectations in budget, interest and group size. For some excursions, you may join a group and make some new friends while some can be arranged privately.
       <br>
       <br>
       There is so much to choose from! Choose from wildlife safaris, city tours, cultural discoveries, and thrilling adventures, as you plan your perfect day excursions in Sri Lanka.</mark>
@@ -72,7 +72,7 @@
         <br>
         <b>Scuba Diving</b> : 2 Hours = Rs.93,300.00
         <br></mark>
-        <br>
+        <br></span>
         <section class="add-to-cart">
           <form action="#" target="_blank">
             <span><input type="button" value="Add to cart"></span>
@@ -131,7 +131,134 @@
             <span><input type="submit" value="access resources" /></span>
         </form>
     </section>
-    </section>
+    <section class="form">
+      <section class="row1">
+      <section class="col-75">
+      <section class="container4">
+      <section class="row1">
+      <section class="col-50">
+          <h2> <center>Ticket Booking</center> </h2>
+          <br>
+          <fieldset>
+        <legend><h4>Foreign Tourist</h4></legend>
+        <br>
+          <p>
+            <label for="activities">Activities :</label>
+            <select name="activitiesf" id="activitiesf">
+                <option value=""></option>
+                <option value="Diving">Diving</option>
+                <option value="Hiking">Hiking</option>
+                <option value="Rock Climbing">Rock Climbing</option>
+            </select>
+          </p>
+          <br>
+          <p>
+          <label for="adultsf">Adults:</label>
+          <input type="number" id="adultsf" name="adultsf" min="0" max="200" value="0" onclick="addCurrent()">
+          </p>
+          <br>
+          <p>
+          <label for="childrenf">Children:</label>
+          <input type="number" id="childrenf" name="childrenf" min="0" max="200" value="0" onclick="addCurrent()">
+          </p>
+          <br>
+          <label for="extrasf"> Extras:</label>
+          <br><br>
+          <p>
+          <label for="passf">Annual Pass:</label>
+          <input type="number" id="passf" name="passf" min="0" max="200"  value="0" onclick="addCurrent()">
+          <label for="tokenf">Food Token:</label>
+          <input type="number" id="tokenf" name="tokenf" min="0" max="200"  value="0" onclick="addCurrent()">
+          </p>
+          <br>
+            <section id="duration">
+              <label for="timef"> Time Duration:</label>
+
+              <input type="radio" name="timef" id="time1" value="Three Hours" > Three Hours
+              <input type="radio" name="timef" id="time2" value="Half Day"> Half Day
+              <input type="radio" name="timef" id="time3" value="Full Day"> Full Day
+              <input type="radio" name="timef" id="time4" value="Two Days"> Two Days
+            </section>
+            <br>
+          </fieldset>
+            <br>
+            <fieldset>
+        <legend><h4>Local Tourist</h4></legend>
+        <br>
+        <p>
+          <label for="activities">Activities :</label>
+          <select name="activitiesl" id="activitiesl">
+              <option value=""></option>
+              <option value="Diving">Diving</option>
+              <option value="Hiking">Hiking</option>
+              <option value="Rock Climbing">Rock Climbing</option>
+          </select>
+        </p>
+        <br>
+        <p>
+          <label for="adultsl">Adults:</label>
+          <input type="number" id="adultsl" name="adultsl" min="0" max="200" value="0" onclick="addCurrent()">
+        </p>
+        <br>
+        <p>
+          <label for="child15">Below 15:</label>
+          <input type="number" id="child15" name="child15" min="0" max="200" value="0" onclick="addCurrent()">
+        </p>
+        <br>
+        <p>
+          <label for="child6">Below 6:</label>
+          <input type="number" id="child6" name="child6" min="0" max="200" value="0" onclick="addCurrent()">
+        </p>
+          <br>
+        <label for="extrasl"> Extras:</label>
+        <br><br>
+        <p>
+        <label for="passl">Annual Pass:</label>
+        <input type="number" id="passl" name="passl" min="0" max="200" value="0" onclick="addCurrent()">
+        <label for="tokenl">Food Token:</label>
+        <input type="number" id="tokenl" name="tokenl" min="0" max="200" value="0" onclick="addCurrent()">
+        </p>
+        <br><br>
+        <label for="time">Time Duration :</label>
+          <input type="radio" name="time" id="time" value="Three Hours" > Three Hours
+          <input type="radio" name="time" id="time" value="Half Day"> Half Day
+          <input type="radio" name="time" id="time" value="Full Day"> Full Day
+          <input type="radio" name="time" id="time" value="Two Days"> Two Days
+          <br><br>
+            </fieldset>
+          <br>
+          <hr>
+          <br>
+          </section>
+          </section>
+          <center>
+            <button type onclick ="myFunction()" id="addorder" name="addorder" class="btn">Add Order</button>
+          </center>
+          <br>
+          <center>
+            <button type="submit" onclick ="myFunction1()" id="placeorder" name="placeorder" class="btn1">Place Order</button>
+          </center>
+          <br>
+      </section>
+        </section>
+        </section>
+            <hr>
+            <br>
+            <h4>Order Bill</h4>
+            <br>
+            <hr>
+            <br>
+            <p>Current Orders: <span id="cost1"> 0 </span></p>
+            <br>
+            <p>Overall Orders: <span id="cost2">0</span></p>
+            <br>
+            <p>Cost Of Current Orders: <span id="cost3">0</span> LKR</p>
+            <br>
+            <p>Overall Cost: <span id="cost4">0</span> LKR</p>
+            <br>
+            <hr>
+      </section>
+      <br>
     <footer class="foot">
       <article>
       Copyright © 2022 All Rights Reserved by Sri Lanka Tourism Development Authority.<br><br>
@@ -145,6 +272,8 @@
         <a href="https://www.srilanka.travel/" target="_blank">srilanka travel</a>
       </section>
   </footer>
+  <script src="./Activities.js"></script>
+  <script src="./main.js"></script>
 
 </body>
 </html>
